@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+    <head>
+        <meta charset="utf-8">
+        <title>United Document</title>
+        <script src="angular.js"></script>
+        <script src="module.js"></script>
+        <script src="route.js"></script>
+    </head>
+    <body ng-controller="myController">
+        <h1> Angular JS Routing Example</h1>
+        <ul>
+            <li> <a href="#!page1">Web Page 1</a> </li>
+            <li> <a href="#!page2">Web Page 2</a> </li>
+            <li> <a href="#!page3">Web Page 3</a> </li>
+        </ul>
+
+
+        <div ng-view>
+
+        </div>
+    </body>
+</html>
